@@ -12,7 +12,7 @@ An automated data pipeline and aggregate analytics engine built with Python, SQL
 
 ```mermaid
 graph LR
-    subgraph Pipeline [Telemetry Analytics Pipeline]
+    subgraph Pipeline [Toronto-Transit-Pipeline]
         direction LR
         A[Simulation Engine] --> |Generates Telemetry @ 6s| B[SQLite: transit_history];
         B --> C[Pandas Data Processing];
